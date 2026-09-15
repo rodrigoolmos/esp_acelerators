@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sld>
+  <accelerator name="fft_rtl" desc="FFT RTL" data_size="64" device_id="089" hls_tool="rtl">
+    <param name="burst_len" desc="Number of FFT frames to process" size="32"/>
+    <param name="index" desc="Input base index in DMA words" size="32"/>
+    <param name="out_index" desc="Output base index in DMA words" size="32"/>
+    <param name="window" desc="Window control: bit0 enable, bit1 load coefficients" size="32"/>
+    <param name="ifft" desc="Inverse FFT control: bit0 enables inverse transform" size="32"/>
+  </accelerator>
+</sld>
